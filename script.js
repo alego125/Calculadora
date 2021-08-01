@@ -162,5 +162,7 @@ num20.addEventListener("click", ()=>{
        }
     let resul = pantalla.getAttribute("value");
     let resultado = evaluaArimetica(resul);
+    let num = resultado.toString();
+    escritura = num;
     pantalla.setAttribute("value",resultado);
 });
